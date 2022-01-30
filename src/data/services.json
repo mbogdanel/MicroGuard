@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "img": "../assets/images/servicii1.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.",
+    "name": "Supraveghere Video",
+    "button": "Afla mai multe..."
+  },
+  {
+    "id": "2",
+    "img": "../assets/images/servicii2.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.",
+    "name": "Automatizari Porti",
+    "button": "Afla mai multe..."
+  },
+  {
+    "id": "3",
+    "img": "../assets/images/servicii3.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.",
+    "name": "Detectie Efractie",
+    "button": "Afla mai multe..."
+  },
+  {
+    "id": "4",
+    "img": "../assets/images/servicii4.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.",
+    "name": "Detectie Incendiu",
+    "button": "Afla mai multe..."
+  },
+  {
+    "id": "5",
+    "img": "../assets/images/servicii5.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.",
+    "name": "Infrastructura Telecomunicatii",
+    "button": "Afla mai multe..."
+  },
+  {
+    "id": "6",
+    "img": "../assets/images/servicii6.jpg",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.",
+    "name": "Video Interfonie",
+    "button": "Afla mai multe..."
+  }
+]
