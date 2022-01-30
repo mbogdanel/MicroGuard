@@ -1,9 +1,9 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
-import { theme } from "../components/styles/GlobalStyle"
+// import { theme } from "../components/styles/GlobalStyle"
 
 export const Button = styled(Link)`
-  background: ${({ theme }) => theme.colors.main};
+  background: #f26a2e;
   white-space: nowrap;
   padding: ${({ big }) => (big ? "16px 40px" : "10px 32px")};
   color: #fff;
@@ -17,7 +17,7 @@ export const Button = styled(Link)`
   border-radius: ${({ round }) => (round ? "50px" : "none")};
 
   &:hover {
-    background: ${({ theme }) => theme.colors.second};
+    background: #077bf1;
     transform: translateY(-2px);
   }
 `

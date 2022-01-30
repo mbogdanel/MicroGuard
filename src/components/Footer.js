@@ -58,7 +58,7 @@ const FooterDesc = styled.div`
 
   h1 {
     margin-bottom: 3rem;
-    color: ${({ theme }) => theme.colors.main};
+    color: #f26a2e;
   }
 
   @media screen and (max-width: 400px) {
@@ -98,7 +98,7 @@ const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover {
-    color: ${({ theme }) => theme.colors.main};
+    color: #f26a2e;
     transition: 0ms.3s ease-out;
   }
 `
