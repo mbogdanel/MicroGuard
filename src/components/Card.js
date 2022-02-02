@@ -1,9 +1,10 @@
 import React from "react"
 import styled from "styled-components"
-import Img from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const Card = ({ item }) => {
-  console.log(item)
+  const image = getImage(item.node.img)
+
   return (
     <StyledCard>
       <div>
@@ -12,10 +13,7 @@ const Card = ({ item }) => {
       </div>
 
       <div>
-        <ProductImg
-          fluid={item.node.img.childImageSharp.fluid}
-          alt={item.node.name}
-        />
+        <ProductImg image={image} alt={item.node.name} />
       </div>
     </StyledCard>
   )
@@ -24,46 +22,62 @@ const Card = ({ item }) => {
 export default Card
 
 const StyledCard = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
   align-items: center;
-  background-color: #fff;
+  background-color: #90acdd;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   margin: 40px 0;
-  padding: 60px;
+  padding: 40px;
   flex-direction: row;
 
   & > div {
     flex: 1;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
+    display: flex;
     flex-direction: column;
     margin-top: 30px;
-    padding: 2em;
+    padding: 1em;
   }
 
   h2 {
     margin-bottom: 2rem;
   }
+
+  div:nth-child(1) {
+    /* display: flex;
+    justify-content: center; */
+    /* background-color: green; */
+    padding: 2em;
+    @media (max-width: 768px) {
+      padding: 0.3em;
+    }
+  }
+  div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+  }
 `
-const ProductImg = styled(Img)`
-  width: 80%;
-  /* height: 100%;
-  max-height: 400px;
+const ProductImg = styled(GatsbyImage)`
+  /* margin-right: 2px; */
+  height: 80%;
+  width: auto;
+  max-height: 300px;
+  max-width: 300px;
   position: relative;
   border-radius: 10px;
   filter: brightness(70%);
-  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1); */
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 
   &:hover {
     filter: brightness(100%);
   }
   @media (max-width: 768px) {
-    width: 13em;
-    height: auto;
-    /* width: 500px; */
-    /* max-height: 400px; */
-    border-radius: 10px;
+    max-height: 400px;
+    max-width: 400px;
   }
 `

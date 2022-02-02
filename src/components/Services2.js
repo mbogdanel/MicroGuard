@@ -14,9 +14,10 @@ const Services2 = () => {
             name
             img {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 90) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(
+                  placeholder: BLURRED
+                  formats: [AUTO, WEBP, AVIF]
+                )
               }
             }
           }
@@ -24,8 +25,8 @@ const Services2 = () => {
       }
     }
   `)
-  console.log(data)
 
+  console.log(data)
   return (
     <ServicesContainer>
       {data.allServicesJson.edges.map((item, index) => (
@@ -40,7 +41,7 @@ export default Services2
 const ServicesContainer = styled.div`
   width: 1000px;
   max-width: 100%;
-  padding: 0 20px;
+  padding: 5px 20px;
   margin: 0 auto;
-  background-color: #d3d3d3;
+  background-color: #bcd0f1;
 `

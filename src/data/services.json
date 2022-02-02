@@ -2,7 +2,7 @@
   {
     "id": "1",
     "img": "../assets/images/servicii1.jpg",
-    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum omnis aliquid id eos vitae, voluptatibus sed recusandae incidunt eveniet illo.",
     "name": "Supraveghere Video",
     "button": "Afla mai multe..."
   },

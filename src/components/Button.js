@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 // import { theme } from "../components/styles/GlobalStyle"
 
 export const Button = styled(Link)`
-  background: #f26a2e;
+  background: #4069b0;
   white-space: nowrap;
-  padding: ${({ big }) => (big ? "16px 40px" : "10px 32px")};
+  padding: ${({ big }) => (big ? "16px 40px" : "7px 32px")};
   color: #fff;
   font-size: ${({ big }) => (big ? "20px" : "16px")};
   outline: none;
@@ -17,7 +17,11 @@ export const Button = styled(Link)`
   border-radius: ${({ round }) => (round ? "50px" : "none")};
 
   &:hover {
-    background: #077bf1;
+    background: #133c82;
     transform: translateY(-2px);
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 10px 24px;
   }
 `

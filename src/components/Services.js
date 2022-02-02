@@ -72,7 +72,7 @@ export default Services
 const ProductsContainer = styled.div`
   min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
-  background-color: #d3d3d3;
+  background-color: #bcd0f1;
 
   color: #fff;
 `
@@ -101,8 +101,9 @@ const ProductWrapper = styled.div`
 `
 
 const ProductCard = styled.div`
-  line-height: 2;
+  /* margin: 20px; */
   width: 100%;
+  line-height: 2;
   height: 500px;
   position: relative;
   border-radius: 10px;
@@ -110,6 +111,8 @@ const ProductCard = styled.div`
 `
 
 const ProductImg = styled(Img)`
+  /* margin: 50px; */
+
   height: 100%;
   max-width: 100%;
   position: relative;

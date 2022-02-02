@@ -4,8 +4,10 @@ export const theme = {
   mobile: "768",
   colors: {
     main: "#f26a2e",
-    second: "#077BF1",
-    third: "#f26",
+    second: "#133c82",
+    third: "#4069b0",
+    forth: "#bcd0f1",
+    fifth: "#f26",
   },
 }
 
@@ -36,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
 }  
 
 main {
-  /* background-color: #d3d3d3; */
+  background-color: #bcd0f1;
 
 }
 

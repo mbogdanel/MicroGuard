@@ -7,7 +7,6 @@ import Seo from "../components/seo"
 import Stats from "../components/Stats"
 import Testimonials from "../components/Testimonials"
 import Services from "../components/Services"
-import Services2 from "../components/Services2"
 import { theme } from "../components/styles/GlobalStyle"
 
 const IndexPage = () => (
@@ -16,7 +15,6 @@ const IndexPage = () => (
       <Seo title="Home" />
       <Hero />
       <Services heading="Servicii de supraveghere" />
-      <Services2 heading="Servicii de supraveghere" />
       <Testimonials />
       <Stats />
       <Email />

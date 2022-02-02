@@ -13,10 +13,14 @@ const AboutUs = () => (
       <AboutUsWrapper>
         <h1>Despre Noi</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
-          consectetur iusto animi consequatur amet nobis totam ipsa incidunt ea
-          vero sunt, eveniet, corporis quisquam. Quasi quos soluta veniam iusto
-          dolore?
+          MICROGUARD S.R.L a fost înființată la începutul anului 2018 pornind de
+          la idea de a oferi servicii profesionale în domeniul securitatii. În
+          acest sens societatea este autorizată de Inspectoratul General al
+          Poliției Române pentru a efectua activitățile de proiectare, instalare
+          sau întreținerea sistemelor de alarmare impotriva efractiei si de
+          Inspectoratul General Pentru Situații De Urgență Române pentru a
+          efectua activitățile de proiectare, instalare sau întreținerea
+          sistemelor de detecție și avertizare incendiu.
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
